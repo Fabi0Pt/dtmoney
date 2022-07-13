@@ -16,11 +16,11 @@ export const Container = styled.div`
     }
 
     td {
+      background-color: var(--shape);
       padding: 1rem 2rem;
       border: 0;
-      background: var(--shape);
-      color: var(--text-body);
       border-radius: 0.25rem;
+      color: var(--text-body);
 
       &:first-child {
         color: var(--text-title);
@@ -29,7 +29,6 @@ export const Container = styled.div`
       &.deposit {
         color: var(--green);
       }
-
       &.withdraw {
         color: var(--red);
       }

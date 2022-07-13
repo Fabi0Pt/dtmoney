@@ -7,9 +7,9 @@ export const Container = styled.div`
   margin-top: -10rem;
 
   div {
-    background: var(--shape);
-    padding: 1.5rem 2rem;
+    background-color: var(--shape);
     border-radius: 0.25rem;
+    padding: 1.5rem 2rem;
     color: var(--text-title);
 
     header {
@@ -26,9 +26,9 @@ export const Container = styled.div`
       line-height: 3rem;
     }
 
-    &.highlight-background {
-      background: var(--green);
-      color: #fff;
+    &:last-child {
+      background-color: var(--green);
+      color: #ffff;
     }
   }
 `;
